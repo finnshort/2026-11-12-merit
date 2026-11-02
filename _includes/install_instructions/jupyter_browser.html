@@ -1,0 +1,46 @@
+
+<h3 id="jupyter_browser">Use Jupyter Lab in your web browser</h3>
+
+  <p>
+    <a href="https://python.org">Python</a> is a popular language for
+    research computing, and great for general-purpose programming as
+    well. In order to simplify the setup process, we will use Jupyter Lab
+    in the browser. You may see references throughout the official
+    Carpentries material to using downloading <a href="https://conda-forge.org/download/">Conda-forge</a>
+    and running Python locally. Feel free to disregard these instructions, unless
+    you are interested in getting a Python environment set up on your 
+    own computer! Feel free to reach out to Finn for help with either
+    the browser or local machine set up.
+  </p>
+
+
+<h4>Set up your workspace</h4>
+
+<p>Go to <a href="https://jupyter.org/try">Try Jupyter</a> and select "JupyterLab" on the left.
+  This should open the Jupyter Lab launcher where you should select the first option under Notebook, Python (Pyodide).
+  If you don't see the "Launcher", click the blue plus button in the top left corner.
+</p>
+
+<img src="assets/img/jupyter_launcher.png" alt="Jupyter Lab Launcher" width="700">
+
+<p>Next, download the <a href="https://swcarpentry.github.io/python-novice-gapminder/files/python-novice-gapminder-data.zip">sample data</a> we'll be working with and unzip the folder.</p>
+
+<p>Upload the downloaded files to the 'data' folder in the left side panel of Jupyter Lab. You should see the 'gapminder' data files along with the default ones Jupyter provides.</p>
+
+<img src="assets/img/jupyter_data.png" alt="Jupyter Lab Data Upload" width="700">
+
+<p>Finally, to make sure you you have the right Python libraries installed and the data files uploaded correctly,
+  copy and paste this code into the notebook and press the 'play' button at the top to run.
+</p>
+
+<p>
+import pandas as pd<br/>
+data_oceania = pd.read_csv('data/gapminder_gdp_oceania.csv')<br/>
+print(data_oceania)<br/>
+</p>
+
+<p>You should see some data printed out in the console, like in the screenshot below. If so, you're all set for the upcoming workshop!
+  If you don't, or get an error message, please contact Finn to get this resolved.
+</p>
+
+<img src="assets/img/jupyter_code.png" alt="Jupyter Lab Code Output" width="700">
