@@ -276,12 +276,12 @@ address.
             <p id="requirements">
             {% if online == "false" %}
                 Participants must bring a laptop with a
-                Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
+                Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.).
             {% else %}
                 Participants must have access to a computer with a
                 Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
             {% endif %}
-            They should have a few specific software packages installed (listed <a href="#setup">below</a>).
+            They should have set up their Jupyter notebook environment in the browser and downloaded the data files (listed <a href="#setup">below</a>).
             </p>
         </dd>  
     </div>
